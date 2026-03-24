@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 #respectivamente cria o "app", renderiza o nosso html, requisita os acessos aos formulários, redireciona os nossos caminhos
-#monta o nosso url e guarda o nosso usuário no cache do navegador para poder acessar novamente.
+#monta o nosso url e guarda o nosso usuário para poder acessar novamente temporariamente.
 import sqlite3
 #importa o nosso banco de dados
 
